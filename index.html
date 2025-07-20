@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <link rel="icon" type="image/png" href="assets/img/profile.png" />
+
+        <title>Monisha's Portfolio</title>
+    </head>
+    <body>
+
+        <!--===== Lottie Loader ===== -->
+        <div id="loader">
+          <lottie-player
+            src="assets/lottie/Loading.json"
+            background="transparent"
+            speed="1"
+            style="width: 150px; height: 150px;"
+            loop
+            autoplay>
+          </lottie-player>
+        </div>
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Monisha P J</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Monisha P J</span><br> Software Developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/monisha-pj/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+                    <a href="https://github.com/Monisha-pj/" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    
+                    <div class="lottie-container">
+                       <lottie-player
+                          src="assets/lottie/Girl doing remote job using laptop.json"
+                          background="transparent"
+                          speed="1"
+                          style="width: 500px; height: 530px"
+                          loop
+                          autoplay>
+                        </lottie-player>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <lottie-player
+                        src="assets/lottie/Girl Hi or Wave.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 500px; height: 530px"
+                        loop
+                        autoplay>
+                    </lottie-player>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Monisha P J</h2>
+                        <p class="about__text" style="text-align: justify;"> I am a passionate and innovative software developer dedicated to creating real-world applications that seamlessly blend creativity with cutting-edge functionality. I thrive on transforming ideas into impactful, efficient solutions—whether building secure systems or designing engaging user experiences. Driven by curiosity and a relentless problem-solving mindset, I continuously push the boundaries of technology while honing my craft. Committed to lifelong learning, I eagerly explore new technologies to stay ahead. My goal is to deliver intuitive, meaningful experiences that truly make a difference in people’s lives.</p>           
+                              
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>   
+                    <div class="skillset-container">
+                      <img src="assets/img/html.png" alt="HTML5 Logo" class="skillset__icon" />
+                      <img src="assets/img/css.png" alt="CSS3 Logo" class="skillset__icon" />
+                      <img src="assets/img/javascript.png" alt="JavaScript Logo" class="skillset__icon" />
+                      <img src="assets/img/mern.png" alt="MERN Logo" class="skillset__icon" />
+                    </div>
+                      <br><br><br>
+                    <div class="skillset-container">
+                        <img src="assets/img/sql.png" alt="SQL Logo" class="skillset__icon" />
+                        <img src="assets/img/c++.png" alt="C++ Logo" class="skillset__icon" />
+                        <img src="assets/img/java.png" alt="java Logo" class="skillset__icon" />
+                        <img src="assets/img/python.png" alt="python Logo" class="skillset__icon" />
+                    </div>
+            </section>
+
+              <!--===== WORK =====-->
+            <section class="work section" id="projects">
+              <h2 class="section-title">Projects</h2>
+              <div class="bd-grid">
+                <div class="swiper my3d">
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/TaskNet.png" alt="Project 1" />
+                        <div class="text-content">
+                          <h3>TaskNet</h3>
+                          <a href="https://github.com/Monisha-pj/TaskNest" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/react_ecommerce.png" alt="Project 2" />
+                        <div class="text-content">
+                          <h3>Grocery Ecommerce</h3>
+                          <a href="https://github.com/Monisha-pj/Ecommerce-GroceryMart" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/loan_prediction.png" alt="Project 3" />
+                        <div class="text-content">
+                          <h3>Loan Amount Predictor</h3>
+                          <a href="https://github.com/Monisha-pj/Loan-Amount-Prediction-Model" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/music_player.png" alt="Project 4" />
+                        <div class="text-content">
+                          <h3>Mood Based Music Player</h3>
+                          <a href="https://github.com/Monisha-pj/mood-based-music-player" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/password_protection.png" alt="Project 5" />
+                        <div class="text-content">
+                          <h3>Hybrid Password Protection Mechanism</h3>
+                          <a href="https://github.com/Monisha-pj/hybrid-password-protection" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/Air-cue.jpg" alt="Project 6" />
+                        <div class="text-content">
+                          <h3>AirCue - Raspberry Pi</h3>
+                          <a href="https://github.com/Monisha-pj/raspberry-pi-voice-control-air-purifier-with-sleeping-aid" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/sign_language.png" alt="Project 5" />
+                        <div class="text-content">
+                          <h3>Sign Language Detection</h3>
+                          <a href="https://github.com/Monisha-pj/sign-language-detection" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="card-content">
+                        <img src="assets/img/medical report.png" alt="Project 5" />
+                        <div class="text-content">
+                          <h3>Medical Report Simplifer</h3>
+                          <a href="https://github.com/Monisha-pj/medical-report-simplifier" target="_blank">
+                            <button class="github-button">GitHub</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <!-- <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div> -->
+                </div>
+              </div>
+            </section>
+          <br>
+          <br>
+          <br>
+          <br>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                  <form action="https://formspree.io/f/xyzpzynq" method="POST" class="contact__form">
+                      <input type="text" name="name" placeholder="Name" required class="contact__input">
+                      <input type="email" name="email" placeholder="Email" required class="contact__input">
+                      <textarea name="message" placeholder="Your Message" rows="10" required class="contact__input"></textarea>
+                      <input type="submit" value="Send" class="contact__button button">
+                  </form>
+                </div>
+
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Monisha P J</p>
+            <div class="footer__social">
+                <a href="#home" class="footer__icon"><i class='bx bx-home'></i></a>         <!-- Home -->
+                <a href="#about" class="footer__icon"><i class='bx bx-user'></i></a>        <!-- About -->
+                <a href="#skills" class="footer__icon"><i class='bx bx-brain'></i></a>      <!-- Skills -->
+                <a href="#projects" class="footer__icon"><i class='bx bx-code-alt'></i></a> <!-- Projects -->
+                <a href="#contact" class="footer__icon"><i class='bx bx-envelope'></i></a>
+            </div>
+            <p class="footer__copy">&#169; Monisha PJ. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script>
+            var swiper = new Swiper(".my3d", {
+                  effect: "coverflow",
+                  grabCursor: true,
+                  centeredSlides: true,
+                  loop: true,
+                  autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+                  },
+                  coverflowEffect: {
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 2.5,
+                    slideShadows: false,
+                  },
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                  breakpoints: {
+                    // for mobile
+                    0: {
+                      slidesPerView: 1,
+                    },
+                    // for tablets
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    // for desktops
+                    1024: {
+                      slidesPerView: 3,
+                    },
+                  },
+              });
+
+      </script>
+    </body>
+</html>
